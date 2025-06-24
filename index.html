@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Régression linéaire</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="global-container">
+    <div id="tester" style="width:1000px;height:500px;"></div>
+    <div class="container">
+        <form action="">
+            <input type="number" min="0" max="360" autocomplete="off" placeholder="Day's prediction" required>
+            <button type="submit">Result</button>
+        </form>
+        <p id="days">l'apparition des symptômes(jours):</p>
+        <p id="result">sévérité neurologique(EDSS): </p>
+    </div>
+</div>
+<div class="info_container">
+    <p id="r"></p>
+    <p id="R2"></p>
+    <p id="moyenne"></p>
+    <p id="somme">/p>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>y</th>
+            <th>x</th>
+            <th>(y - yb)</th>
+            <th>(x - xb)</th>
+            <th>(y - yb)(x - xb)</th>
+            <th>(x - xb)^2</th>
+        </tr>
+    </thead>
+    <tbody id="data_yx">
+    </tbody>
+</table>
+<script src="./linear-regression.js"></script>
+</body>
+</html>
