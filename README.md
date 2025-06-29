@@ -2,6 +2,8 @@
 
 Ce projet utilise **JavaScript** et **Plotly.js** pour simuler une analyse de régression linéaire appliquée à des données médicales fictives, en particulier pour évaluer la **sévérité neurologique** (via l’échelle **EDSS**) en fonction du **temps écoulé depuis l'apparition des symptômes**.
 
+![Image](https://github.com/user-attachments/assets/1f335da4-10b9-4786-b7db-42e172b956cc)
+
 ---
 
 ## 🚀 Fonctionnalités
@@ -82,7 +84,8 @@ Le coefficient de corrélation `r` et le coefficient de détermination `R²` son
 
 ## 📸 Capture d'écran
 
-*(Ajoutez ici une image du graphique ou de l'interface)*
+![Image](https://github.com/user-attachments/assets/13df2a48-af0d-4e58-ae40-ca7175a028bd)
+
 
 ---
 
@@ -91,8 +94,3 @@ Le coefficient de corrélation `r` et le coefficient de détermination `R²` son
 Ce projet est open-source et libre d’utilisation à des fins pédagogiques ou personnelles.
 
 ---
-
-## 🙌 Auteurs
-
-Développé dans un but pédagogique pour illustrer les principes de régression linéaire de manière visuelle et interactive.
-
